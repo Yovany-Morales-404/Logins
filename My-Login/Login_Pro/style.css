@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    border: 3px solid red;
+} */
+
+.flex-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid blue; */
+    overflow: hidden;
+}
+
+.flex-container__two {
+    background: linear-gradient(to right, #0a064bab, #0a064bab), url('./img.jpg');
+    width: 40%;
+    margin: 50px 0;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* border: 3px solid green; */
+}
+
+.box {
+    /* align-self: center; */
+    /* border: 3px solid yellow; */
+    width: 80%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.container-link {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0 60px;
+    /* border: 2px solid red; */
+}
+
+.container-link__sign-in {
+    border-bottom: 3px solid #0f67da;
+    color: #fff;
+    margin: 50px 0;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.container-link__sign-up {
+    color: #fff9;
+    margin: 50px 0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.container-link__sign-up:hover {
+    font-size: 2em;
+}
+
+label {
+    color: #fff9;
+}
+
+.box__input {
+    width: 100%;
+    margin: 20px 0;
+    background: rgba(200, 200, 200, .2);
+    border-radius: 20px;
+    padding: 15px 10px;
+    border: none;
+    color: #fff;
+}
+
+.checkbox {
+    color: #fff;
+    font-weight: 700;
+}
+
+.box__button {
+    margin: 60px 0 90px;
+    padding: 15px 10px;
+    background: #0f67da;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.box__button:hover {
+    cursor: pointer;
+    background: #0e5ec7;
+    color: #aaa;
+
+}
+
+b {
+    border-bottom: 3px solid #ddd7;
+    /* margin-top: 60px; */
+}
+
+.link {
+    color: #fff9;
+    text-decoration: none;
+    margin-top: 50px;
+    text-align: center;
+}
